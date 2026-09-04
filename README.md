@@ -76,3 +76,4 @@ The GitHub Actions workflow (`.github/workflows/part1-ci.yml`) validates the rep
 - The `docs` folder exists.
 - `RaceDay_ERD.png`, `RaceDay_API_Endpoint_Plan.pdf`, and `RaceDay_Database.sql` are all present.
 - `README.md` exists.
+![alt text](image.png)
