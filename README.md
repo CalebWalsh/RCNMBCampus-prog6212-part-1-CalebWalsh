@@ -70,3 +70,9 @@ To run the database script:
 3. Open `docs/RaceDay_Database.sql`.
 4. Execute the entire script (F5). It will create the `RaceDayDB` database, all six tables with their constraints, and seed data (2 Organisers, 2 Participants, 3 Events, categories per event, and sample enrolments/results).
 5. Expand **Databases > RaceDayDB > Tables** to verify all tables were created and populated.
+## CI/CD
+
+The GitHub Actions workflow (`.github/workflows/part1-ci.yml`) validates the repository structure on every push and pull request. It checks that:
+- The `docs` folder exists.
+- `RaceDay_ERD.png`, `RaceDay_API_Endpoint_Plan.pdf`, and `RaceDay_Database.sql` are all present.
+- `README.md` exists.
