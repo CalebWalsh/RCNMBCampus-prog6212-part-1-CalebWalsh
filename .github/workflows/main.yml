@@ -15,7 +15,7 @@ jobs:
         run: test -d docs
 
       - name: Check ERD file exists
-        run: test -f docs/RaceDay_ERD.png
+        run: test -f docs/RaceDay_ERD.pdf
 
       - name: Check API Endpoint Plan exists
         run: test -f docs/RaceDay_API_Endpoint_Plan.pdf
